@@ -12,7 +12,7 @@ describe('SelectCustom.vue', () => {
 
   it('renders itself', () => {
     expect(wrapper.name())
-      .to.equal('custom-select');
+      .to.equal('select-custom');
   });
 
   it('initializes the default data', () => {

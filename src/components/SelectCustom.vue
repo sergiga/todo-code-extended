@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: 'custom-select',
+  name: 'select-custom',
   props: {
     options: Array,
   },
