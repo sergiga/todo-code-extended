@@ -1,13 +1,13 @@
 {
   "name": "todo-code-extended",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Todo code extended for mLean coffee",
   "author": "Sergio Garcia <srgarcia91@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
-    "deploy": "npm run build && node server.js",    
+    "deploy": "npm run build && node server.js",
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "test": "npm run unit",
@@ -80,8 +80,8 @@
     "webpack-merge": "^4.1.0"
   },
   "engines": {
-    "node": ">= 4.0.0",
-    "npm": ">= 3.0.0"
+    "node": "7.6.0",
+    "npm": "5.5.1"
   },
   "browserslist": [
     "> 1%",
